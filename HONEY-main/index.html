@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <link href="CSS/queries.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="honey__nav">
+      <img class="honey__logo" alt="logo" src="images/6634350.png" />
+      <ul class="honey__nav-list">
+        <li><a href="#section-hero" class="honey__nav-link"> Home</a></li>
+        <li><a href="#section-products" class="honey__nav-link"> Our products</a></li>
+        <li><a class="honey__nav-link" href="#"> About us</a></li>
+        <li><a class="honey__nav-link contact" href="#"> Contact</a></li>
+      </ul>
+     
+    </nav>
+    
+    <div class="honey__nav-list-contact-details"> 
+      <p><span>Mon-Fry, </span>  09:00AM-21:00PM</p>
+      <p><span>Phone-number: </span>0742-140-422</p>
+   
+  </div>
+    <section class="honey__hero-section" id="section-hero">
+      <div class="layer"></div>
+      <header class="honey__hero-header">
+        <h1 class="honey__hero-heading">WELCOME TO <span>BEE</span>WELL</h1>
+        <p class="honey__hero-text">
+          Our honey has an exotic taste that is worth trying and we have a large
+          variety of products from which you can choose.
+        </p>
+      </header>
+      <div class="honey__special-offer-container">
+          
+      <p class="honey__special-offer-text">
+        <span class="honey__special-offer-span">click </span>the <span class="honey__special-offer-span">hive</span> to receive a special offer
+      </p>
+      <button class="honey__special-offer-btn">
+        <img
+          class="honey__special-offer-hive"
+          src="images/hive-svgrepo-com.svg"
+        />
+    
+</div>
+      </button>
+    </section>
+    <section class="honey__products-section" id="section-products">
+        <p class="honey__products-text">
+           Down below is a list of items from which you can choose to purchase
+        </p>
+        <div class="honey__products-container"> 
+        
+            <div class="honey__products-items">
+                <ul class="honey__products-items-list">
+                    <li><button class="honey__products-items-list-btn" data-product="1">Miere de tei  500g <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                    <li><button class="honey__products-items-list-btn"  data-product="2">Miere de salcâm 500g  <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                    <li><button class="honey__products-items-list-btn"  data-product="3">product  <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                    <li><button class="honey__products-items-list-btn"  data-product="4">product  <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                    <li><button class="honey__products-items-list-btn"  data-product="5">product  <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                    <li><button class="honey__products-items-list-btn"  data-product="6">product  <img class="honey__products-items-list-arrow" src="images/arrow-forward-outline (1).svg"/></button></li>
+                </ul>
+            </div>
+            <div class="honey__products-images">
+              <div class="honey__products-images-text-container">
+              <p class="honey__products-images-text"> Please select an item </p>
+            </div>
+            <img class="honey__product-img honey__product-img-1" src="products-img/4507770_n1_14507770.png"/>
+            <img class="honey__product-img honey__product-img-2" src="products-img/img_0503-w.jpg"/>
+            </div>
+            <div class="honey__products-details-container">
+              <div class="honey__products-details-cart-items">
+                <p class="honey__products-details-opened-cart-text">
+                  Here are your selected products
+                </p>
+              <!-- <div class="honey__product-details">
+                <p>Miere de tei 500g</p><span class="honey__product-details-quantity">x1</span><span class="honey__product-details-equal">=</span><span class="honey__product-details-price">10$</span>
+              </div> -->
+              </div>
+              
+              <button class="honey__prodcuts-details-cart-product-btn"><img class="honey__products-details-cart" alt="cart" src="images/cart-outline.svg"/><img class="honey__products-details-cart-close hidden-cart" src="images/close-outline.svg" /></button>
+              <p class="honey__products-number">x0</p>
+            
+              <div class="honey__products-details honey__products-details-1">
+                <p class="honey__products-details-product-name">Miere de tei 500g</p>
+                <p class="honey__products-details-price">price:<span>10$</span></p>
+            </div>
+
+            <div class="honey__products-details-add-product-container">
+              <button class="honey__prodcuts-details-add-product-btn"><img class="honey__products-details-add-product" alt="shoping bag" src="images/bag-add-outline.svg"/>  </button>
+            </div>
+
+            <div class="honey__products-details honey__products-details-2">
+              <p class="honey__products-details-product-name">Miere de salcâm 500g</p>
+              <p class="honey__products-details-price">price:<span>10$</span></p>
+          </div>
+          </div>
+    </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
